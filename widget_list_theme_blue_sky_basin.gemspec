@@ -11,9 +11,8 @@ Gem::Specification.new do |spec|
   spec.description   = %q{The First theme for widget_list.}
   spec.summary       = %q{In rails you have will_paginate and other gems like it using the ActiveRecord approach, but widget_list adds some awesome treats to standard boring pagers}
   spec.homepage      = "https://github.com/davidrenne/widget_list_theme_blue_sky_basin/"  
-  #spec.add_dependency('widget_list', '~> 1.1.9')
+  spec.add_dependency('widget_list', '~> 1.1.9')
  
-  spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
