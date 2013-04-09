@@ -1,6 +1,9 @@
 # WidgetListThemeBlueSkyBasin
 
-TODO: Write a gem description
+
+A Theme for the [widget_list][1] gem.  Inspired by my run down [Vail's Blue Sky Basin][2]
+
+![](http://davidrenne.com/github/widget_list/theme_blue_sky_basin.png)
 
 ## Installation
 
@@ -27,3 +30,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+[1]: https://github.com/davidrenne/widget_list/
+[2]: http://www.tripadvisor.com/Attraction_Review-g33676-d146109-Reviews-Blue_Sky_Basin-Vail_Colorado.html

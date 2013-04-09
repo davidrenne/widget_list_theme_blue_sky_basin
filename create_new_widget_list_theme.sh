@@ -25,5 +25,8 @@ echo '  end' >> lib/$THEMENAME.rb
 echo 'end' >> lib/$THEMENAME.rb
 echo '' >> lib/$THEMENAME.rb
 echo 'ActionView::Base.send :include, WidgetListThemeHelper' >> lib/$THEMENAME.rb
+wget https://github.com/davidrenne/widget_list_theme_blue_sky_basin/blob/master/create_new_widget_list_theme.sh
+echo "Now add   spec.add_dependency('widget_list', '~> 1.2.0')  as well as author information to your gemspec file"
+vim $THEMENAME.gemspec
 
 
